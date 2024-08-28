@@ -6,3 +6,5 @@ production/*
 
 # kicad specific
 splinktegrated-backups/*
+*.lck
+#auto_saved_files#

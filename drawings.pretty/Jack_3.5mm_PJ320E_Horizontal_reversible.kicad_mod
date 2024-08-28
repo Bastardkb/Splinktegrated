@@ -1,4 +1,4 @@
-(footprint "Jack_3.5mm_PJ320E_Horizontal_custom"
+(footprint "Jack_3.5mm_PJ320E_Horizontal_reversible"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -28,7 +28,7 @@
 			)
 		)
 	)
-	(property "Footprint" "Jack_3.5mm_PJ320E_Horizontal_custom"
+	(property "Footprint" "Jack_3.5mm_PJ320E_Horizontal_reversible"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -225,6 +225,14 @@
 		(remove_unused_layers no)
 		(uuid "7419d446-cc25-409d-b831-a2aa3c9e62de")
 	)
+	(pad "R1" thru_hole oval
+		(at 4.4 -4 270)
+		(size 2 1.4)
+		(drill oval 1.2 0.6)
+		(layers "*.Cu" "F.Mask")
+		(remove_unused_layers no)
+		(uuid "36c14d31-78a9-45e9-8f95-278f688bd273")
+	)
 	(pad "R2" thru_hole oval
 		(at 0 -7 270)
 		(size 2 1.4)
@@ -233,13 +241,13 @@
 		(remove_unused_layers no)
 		(uuid "7399dc6f-c254-4a59-843e-a5bc1c47a49f")
 	)
-	(pad "S" thru_hole oval
-		(at 4.5 0.75 270)
-		(size 3.5 1.4)
-		(drill oval 2.7 0.6)
-		(layers "*.Cu" "*.Mask")
+	(pad "R2" thru_hole oval
+		(at 4.4 -7 270)
+		(size 2 1.4)
+		(drill oval 1.2 0.6)
+		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
-		(uuid "75004eb0-1ce9-4e47-93f6-fdda9c504fa1")
+		(uuid "41376f90-2f08-4506-a490-abc779554cbf")
 	)
 	(pad "T" thru_hole rect
 		(at 0 0 270)
@@ -256,6 +264,30 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "8afb6952-d643-45bb-9461-4dcf63715d8c")
+	)
+	(pad "T" thru_hole rect
+		(at 4.4 0 270)
+		(size 2 1.4)
+		(drill oval 1.2 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3c5dd6f7-385e-43c6-8ece-7dd26bf5f279")
+	)
+	(pad "T" thru_hole oval
+		(at 4.5 0.75 270)
+		(size 3.5 1.4)
+		(drill oval 2.7 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3a39ddee-c6bd-4793-b851-b2b2d7237a91")
+	)
+	(pad "T" thru_hole oval
+		(at 4.5 0.75 270)
+		(size 3.5 1.4)
+		(drill oval 2.7 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "75004eb0-1ce9-4e47-93f6-fdda9c504fa1")
 	)
 	(model "${KISYS3DMOD}/Connector_Audio.3dshapes/Jack_3.5mm_PJ320E_Horizontal.wrl"
 		(offset

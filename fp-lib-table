@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "drawings")(type "KiCad")(uri "${KIPRJMOD}/drawings.pretty")(options "")(descr ""))
   (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/drawings.pretty/Library.pretty")(options "")(descr ""))
+  (lib (name "local-libraries")(type "KiCad")(uri "${KIPRJMOD}/local-libraries.pretty")(options "")(descr ""))
 )
