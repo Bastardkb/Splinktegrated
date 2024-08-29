@@ -7256,10 +7256,6 @@
 		(uuid "2aa226ed-46b6-4d43-8204-14e404603679")
 	)
 	(no_connect
-		(at 182.88 104.14)
-		(uuid "2aa226ed-46b6-4d43-8204-14e40460367b")
-	)
-	(no_connect
 		(at 391.16 62.23)
 		(uuid "367de3c2-e8c2-45a9-9893-784e57c77ad8")
 	)
@@ -7302,10 +7298,6 @@
 	(no_connect
 		(at 391.16 67.31)
 		(uuid "ed50d07f-42d4-4789-8b32-ed00f8ecc305")
-	)
-	(no_connect
-		(at 431.8 46.99)
-		(uuid "eda51789-446c-4085-844c-71cf779f03bd")
 	)
 	(polyline
 		(pts
@@ -10334,6 +10326,17 @@
 		)
 		(uuid "05511945-a16d-4761-af09-2b614ce7039d")
 	)
+	(label "D13"
+		(at 431.8 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "092eb299-c8d1-46ca-b9b4-21457035ef56")
+	)
 	(label "QSPI_D2"
 		(at 111.76 68.58 0)
 		(fields_autoplaced yes)
@@ -10520,6 +10523,17 @@
 			(justify right bottom)
 		)
 		(uuid "33c2bf1e-df85-4ed7-869a-0fbfc2b13bbb")
+	)
+	(label "D14"
+		(at 431.8 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "34e1dd56-f108-44ff-88ca-ddb40178b0d3")
 	)
 	(label "D+_daughter"
 		(at -66.675 87.63 180)
@@ -11624,6 +11638,26 @@
 			)
 		)
 	)
+	(global_label "SPI_CS"
+		(shape input)
+		(at 431.8 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "406bda60-99fd-49dd-8bc7-43afa4a27086")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 402.59 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "col4_l"
 		(shape input)
 		(at 313.69 57.15 180)
@@ -11902,6 +11936,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI_CS"
+		(shape input)
+		(at 182.88 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7a684382-a656-4d57-ba2f-b55343fe9234")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 212.09 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -17042,6 +17096,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 421.64 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89d52a4e-7092-47d3-b8c5-79c79f20754c")
+		(property "Reference" "#PWR041"
+			(at 421.64 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 421.64 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 421.64 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 421.64 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 421.64 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6266bc7-f61f-4453-a121-d7cbfb472b5b")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x04_Female")
 		(at 41.91 40.005 0)
 		(unit 1)
@@ -17931,6 +18050,73 @@
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 426.72 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa23e168-a4d5-43bb-b77e-fea1107ace6a")
+		(property "Reference" "NA_JP5"
+			(at 425.704 43.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NA_Jumper_2_Open"
+			(at 440.436 41.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "local-libraries:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 426.72 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 426.72 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 426.72 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35d536d8-fb74-473a-8765-d1bc53762b85")
+		)
+		(pin "2"
+			(uuid "d3d07da7-196e-4e94-8feb-c1398d3ed360")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "NA_JP5")
 					(unit 1)
 				)
 			)
