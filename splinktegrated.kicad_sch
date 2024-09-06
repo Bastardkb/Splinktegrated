@@ -7260,10 +7260,6 @@
 		(uuid "367de3c2-e8c2-45a9-9893-784e57c77ad8")
 	)
 	(no_connect
-		(at 182.88 83.82)
-		(uuid "3c2f452e-ab13-411e-bbf8-c214079ded1c")
-	)
-	(no_connect
 		(at -88.9 60.96)
 		(uuid "455fd08e-7008-46a0-9e5a-f14373728ee6")
 	)
@@ -7302,10 +7298,6 @@
 	(no_connect
 		(at 379.73 140.97)
 		(uuid "cc5b3f82-d6a3-456a-94aa-62cd863eeb58")
-	)
-	(no_connect
-		(at 182.88 86.36)
-		(uuid "e9b08236-c5f0-4a1d-97bb-872c5d8b5e75")
 	)
 	(no_connect
 		(at 391.16 67.31)
@@ -7553,6 +7545,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 86.36) (xy 191.77 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cf0946a-594c-46dc-b27d-506c8b5c9c75")
+	)
+	(wire
+		(pts
 			(xy 121.92 185.42) (xy 130.81 185.42)
 		)
 		(stroke
@@ -7710,6 +7712,16 @@
 			(type default)
 		)
 		(uuid "30cae101-9437-4136-a121-6fe77a84cca3")
+	)
+	(wire
+		(pts
+			(xy 424.18 91.44) (xy 415.29 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3158f6ad-0d52-44f0-b3e2-3f55e3c285d1")
 	)
 	(wire
 		(pts
@@ -9483,6 +9495,16 @@
 	)
 	(wire
 		(pts
+			(xy 424.18 88.9) (xy 415.29 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2c6cf20-c53b-4c9a-ae80-1efabd780c96")
+	)
+	(wire
+		(pts
 			(xy 138.43 40.64) (xy 138.43 38.1)
 		)
 		(stroke
@@ -9660,6 +9682,16 @@
 			(type default)
 		)
 		(uuid "df6bf42c-1bf4-47dc-987f-b446819507c7")
+	)
+	(wire
+		(pts
+			(xy 182.88 83.82) (xy 191.77 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e35ccfea-abce-4a9f-b059-673e3c55ddb5")
 	)
 	(wire
 		(pts
@@ -10762,6 +10794,17 @@
 		)
 		(uuid "7d7b54ef-4be8-4223-8a16-208aa8947f21")
 	)
+	(label "D11"
+		(at 415.29 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e0af265-7a62-42b5-b616-acbde83fee35")
+	)
 	(label "D14"
 		(at 191.77 93.98 180)
 		(fields_autoplaced yes)
@@ -11081,6 +11124,17 @@
 		)
 		(uuid "d461ba64-0270-4845-8ba8-365d62b22d0c")
 	)
+	(label "D10"
+		(at 415.29 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd313c91-192e-4644-8fff-b38f08d0b0bc")
+	)
 	(label "QSPI_~{CS}"
 		(at 46.355 160.655 0)
 		(fields_autoplaced yes)
@@ -11169,6 +11223,17 @@
 		)
 		(uuid "f31ab092-7302-4aea-b193-117d59bfac5f")
 	)
+	(label "D10"
+		(at 191.77 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f322fe69-65f6-46f2-b9c1-e25bc488e328")
+	)
 	(label "D-_daughter"
 		(at -103.505 113.03 180)
 		(fields_autoplaced yes)
@@ -11256,6 +11321,17 @@
 			(justify left bottom)
 		)
 		(uuid "fadfd2bb-8c1b-4a52-8f70-294bd6fb18f2")
+	)
+	(label "D11"
+		(at 191.77 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ff6b24e4-2204-4756-9d55-c541f5a6ef22")
 	)
 	(global_label "row5_l"
 		(shape input)
@@ -15479,6 +15555,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 429.26 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f4f43b6-90d1-41da-bc8f-eea692c90ef3")
+		(property "Reference" "J13"
+			(at 430.53 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 435.864 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "local-libraries:PinHeader_1x01_P1.27mm_Vertical"
+			(at 429.26 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 429.26 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 429.26 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5017e879-21e8-4101-b6c9-fe64498f9155")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0")
 		(at -104.14 48.26 0)
 		(unit 1)
@@ -16784,6 +16926,72 @@
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 429.26 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a591f73-f847-40c8-9d03-7766d85fde4c")
+		(property "Reference" "J15"
+			(at 430.53 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 435.864 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "local-libraries:PinHeader_1x01_P1.27mm_Vertical"
+			(at 429.26 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 429.26 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 429.26 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c36e728a-4b60-4a2e-8630-29c1adc63f4b")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "J15")
 					(unit 1)
 				)
 			)
