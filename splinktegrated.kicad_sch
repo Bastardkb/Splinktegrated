@@ -7012,6 +7012,12 @@
 		(uuid "22d98a6d-4cb1-4200-ae1a-82b4e9f47dfe")
 	)
 	(junction
+		(at 382.27 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c470c98-5607-4e10-941e-02ba9d8a3e9a")
+	)
+	(junction
 		(at 162.56 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7268,10 +7274,6 @@
 		(uuid "455fd08e-7008-46a0-9e5a-f14373728ee7")
 	)
 	(no_connect
-		(at 379.73 135.89)
-		(uuid "506a8905-2918-4a37-adb2-386197c822af")
-	)
-	(no_connect
 		(at 391.16 64.77)
 		(uuid "5b08d04f-4616-4c62-ac42-24fde4993075")
 	)
@@ -7294,10 +7296,6 @@
 	(no_connect
 		(at 431.8 67.31)
 		(uuid "c8892635-aee7-4268-891d-6fa49bf89325")
-	)
-	(no_connect
-		(at 379.73 140.97)
-		(uuid "cc5b3f82-d6a3-456a-94aa-62cd863eeb58")
 	)
 	(no_connect
 		(at 391.16 67.31)
@@ -8335,6 +8333,16 @@
 	)
 	(wire
 		(pts
+			(xy 379.73 140.97) (xy 382.27 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e8d4e69-7ddb-45c5-8813-15caee938304")
+	)
+	(wire
+		(pts
 			(xy 58.42 113.03) (xy 58.42 118.11)
 		)
 		(stroke
@@ -8342,6 +8350,16 @@
 			(type default)
 		)
 		(uuid "5f30667a-97ef-4b5a-ac86-8d2fcfc6b1c7")
+	)
+	(wire
+		(pts
+			(xy 382.27 135.89) (xy 382.27 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6002c9d8-324a-4ce3-81d4-f70ad1cc6c22")
 	)
 	(wire
 		(pts
@@ -8492,6 +8510,16 @@
 			(type default)
 		)
 		(uuid "71d7a44b-c81e-4c32-9df2-5352c0e3e5b1")
+	)
+	(wire
+		(pts
+			(xy 379.73 135.89) (xy 382.27 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "722d2eb2-6512-4110-8302-96211d063cb1")
 	)
 	(wire
 		(pts
@@ -9845,6 +9873,16 @@
 	)
 	(wire
 		(pts
+			(xy 382.27 138.43) (xy 387.35 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed34bf2b-548c-430a-a320-57b46ea4b7cd")
+	)
+	(wire
+		(pts
 			(xy 46.99 127) (xy 46.99 128.27)
 		)
 		(stroke
@@ -9952,6 +9990,16 @@
 			(type default)
 		)
 		(uuid "f51a5160-6b1c-4206-8c4f-4a138e86515f")
+	)
+	(wire
+		(pts
+			(xy 382.27 140.97) (xy 382.27 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f56a3b9b-d7b7-4810-b2f4-d1bc7c518596")
 	)
 	(wire
 		(pts
@@ -10683,6 +10731,17 @@
 			(justify right bottom)
 		)
 		(uuid "59af45c2-cf2d-4761-9576-ffd92aaf78f2")
+	)
+	(label "D12"
+		(at 387.35 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "60e37bcd-3bb0-4f82-b385-6df15b56e75e")
 	)
 	(label "QSPI_~{CS}"
 		(at 218.44 129.54 0)
