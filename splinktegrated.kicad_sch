@@ -14548,7 +14548,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local-libraries:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "local-libraries:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 316.23 120.65 0)
 			(effects
 				(font
@@ -17976,7 +17976,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local-libraries:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "local-libraries:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 426.72 46.99 0)
 			(effects
 				(font
@@ -18326,7 +18326,7 @@
 				)
 			)
 		)
-		(property "Footprint" "local-libraries:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "local-libraries:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 316.23 113.03 0)
 			(effects
 				(font
