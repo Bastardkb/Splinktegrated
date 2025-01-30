@@ -7024,6 +7024,12 @@
 		(uuid "2f7b39c6-b223-4dbb-a65f-28869ea7ab72")
 	)
 	(junction
+		(at 422.91 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ddde4a5-4fd0-45c5-8f3e-5f632dd7f176")
+	)
+	(junction
 		(at 111.76 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7294,10 +7300,6 @@
 		(uuid "905b016f-bef8-472f-81b6-661d94eddee1")
 	)
 	(no_connect
-		(at 182.88 96.52)
-		(uuid "bb800a93-fd8c-47a3-8e89-9f73fa968355")
-	)
-	(no_connect
 		(at 431.8 67.31)
 		(uuid "c8892635-aee7-4268-891d-6fa49bf89325")
 	)
@@ -7324,6 +7326,16 @@
 			(type default)
 		)
 		(uuid "015196de-daf7-4006-83cc-ee54b80aeb71")
+	)
+	(wire
+		(pts
+			(xy 422.91 124.46) (xy 422.91 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "033ee115-ec98-4b81-8e73-31e81499cc3e")
 	)
 	(wire
 		(pts
@@ -7504,6 +7516,16 @@
 			(type default)
 		)
 		(uuid "135ac5db-effb-4097-92d4-281b15c6b9a9")
+	)
+	(wire
+		(pts
+			(xy 422.91 128.27) (xy 422.91 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13994720-e9b8-4c78-a25b-d8470aec07cd")
 	)
 	(wire
 		(pts
@@ -7767,6 +7789,16 @@
 	)
 	(wire
 		(pts
+			(xy 421.64 128.27) (xy 422.91 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36a88d57-ca65-4a1d-9fdf-ff417c750465")
+	)
+	(wire
+		(pts
 			(xy 267.97 127) (xy 256.54 127)
 		)
 		(stroke
@@ -7884,6 +7916,16 @@
 			(type default)
 		)
 		(uuid "3dbba00f-a03e-413b-a708-cf5bc1d910dd")
+	)
+	(wire
+		(pts
+			(xy 425.45 124.46) (xy 422.91 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ee0345d-c332-4a61-9615-341bb68cfc16")
 	)
 	(wire
 		(pts
@@ -9127,6 +9169,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 96.52) (xy 191.77 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3605182-d485-49a7-8043-18a7f60cf85c")
+	)
+	(wire
+		(pts
 			(xy 55.245 184.785) (xy 55.245 186.055)
 		)
 		(stroke
@@ -10035,6 +10087,16 @@
 		)
 		(uuid "f667ee54-c264-4ee4-a9cc-710160e7655c")
 	)
+	(wire
+		(pts
+			(xy 425.45 132.08) (xy 422.91 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f72e0221-8458-4b11-9a80-d2c32936b8d5")
+	)
 	(polyline
 		(pts
 			(xy 80.645 93.98) (xy 74.93 93.98)
@@ -10146,6 +10208,18 @@
 		(uuid "fec9c9e8-6226-453e-8696-43731c6101e5")
 	)
 	(rectangle
+		(start 416.814 117.221)
+		(end 456.819 138.176)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 691b59af-26dc-4982-9327-3d2263a4df81)
+	)
+	(rectangle
 		(start 414.02 83.185)
 		(end 454.025 104.14)
 		(stroke
@@ -10168,6 +10242,19 @@
 			(type none)
 		)
 		(uuid fa12d0e1-13de-49e6-b5ba-96b7567a7996)
+	)
+	(text "Hand"
+		(exclude_from_sim no)
+		(at 416.56 115.57 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "01dc79cc-288e-44e8-9a6e-3436ab9deac2")
 	)
 	(text "Trackball FPC Connector"
 		(exclude_from_sim no)
@@ -10581,6 +10668,17 @@
 			(justify right bottom)
 		)
 		(uuid "3a3878d6-d283-47fa-91ce-45f0a67bb4bb")
+	)
+	(label "hand"
+		(at 191.77 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3ad47792-a7f0-4dcb-a944-edfdf2a4d0c4")
 	)
 	(label "A2"
 		(at 191.77 132.08 180)
@@ -11076,6 +11174,17 @@
 			(justify right bottom)
 		)
 		(uuid "b245a0e0-4591-4ec1-b428-d1cebe5ea3ef")
+	)
+	(label "hand"
+		(at 421.64 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b4fd5926-55fe-4e9c-90d9-46c0fb6ea7d9")
 	)
 	(label "Vbus_daughter"
 		(at -66.675 80.01 180)
@@ -16418,6 +16527,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 430.53 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "79854843-773f-4ecd-abc7-15a7eaf78d6e")
+		(property "Reference" "NA_JP7"
+			(at 429.514 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NA_Jumper_2_Open"
+			(at 444.246 126.238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "local-libraries:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 430.53 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 430.53 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 430.53 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "982af5b5-0e24-47c3-bc4d-4bd0a17612e1")
+		)
+		(pin "2"
+			(uuid "12f62da6-f8f6-4b18-bde2-1a19fb85123c")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "NA_JP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 58.42 81.28 0)
 		(unit 1)
@@ -17036,6 +17212,73 @@
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 430.53 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a6d32f1-f1bc-4589-9f3d-d53e14b6b415")
+		(property "Reference" "NA_JP6"
+			(at 429.514 121.158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NA_Jumper_2_Open"
+			(at 444.246 118.618 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "local-libraries:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 430.53 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 430.53 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 430.53 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2b8a0b8-2c81-41c2-92e4-a204ffe1c6a2")
+		)
+		(pin "2"
+			(uuid "c0ac7ac3-1a52-4db2-9493-369342de191d")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "NA_JP6")
 					(unit 1)
 				)
 			)
@@ -19679,6 +19922,137 @@
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 435.61 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da4f05c2-1fcc-498e-980a-783f3aabe767")
+		(property "Reference" "#PWR039"
+			(at 441.96 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 443.8649 124.616 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 435.61 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 435.61 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 435.61 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a74ebf89-a882-428f-9973-601fdd6b7d59")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 435.61 132.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc97a19c-bc05-4042-8f61-7c897e27db6f")
+		(property "Reference" "#PWR040"
+			(at 431.8 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 439.42 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 435.61 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 435.61 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 435.61 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8f5eb02-bb8c-44d0-aa39-21c86d59ee66")
+		)
+		(instances
+			(project "splinktegrated"
+				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
