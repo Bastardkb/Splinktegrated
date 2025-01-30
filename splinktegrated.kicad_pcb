@@ -2257,7 +2257,7 @@
 		)
 		(fp_arc
 			(start 0.85 -0.8)
-			(mid 1.128665 -0.661692)
+			(mid 1.128661 -0.661692)
 			(end 1.241173 -0.371651)
 			(stroke
 				(width 0.12)
@@ -9181,7 +9181,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R12"
-			(at 0 -1.17 90)
+			(at -0.22 -9.37 90)
 			(layer "F.SilkS")
 			(uuid "35da3e60-571a-44db-8907-230ced98a55b")
 			(effects
