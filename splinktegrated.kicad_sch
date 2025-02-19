@@ -7030,12 +7030,6 @@
 		(uuid "3e2f99c1-6022-44bd-8b4e-2ec4a7bf77de")
 	)
 	(junction
-		(at 322.58 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3fc4abaa-ead3-43d6-b8f9-d1d4af0a5c22")
-	)
-	(junction
 		(at 157.48 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7064,12 +7058,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c57fce8-8fb2-4782-9f8e-5da346301780")
-	)
-	(junction
-		(at 328.93 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "61eb518c-6c1a-46d3-8689-72960b3c0fd5")
 	)
 	(junction
 		(at 354.33 135.89)
@@ -7136,12 +7124,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94cc0030-db14-4993-9dd4-ca0d7bc5ffd5")
-	)
-	(junction
-		(at 325.12 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "97d0fac4-034d-4a34-843e-ed059d2d1a12")
 	)
 	(junction
 		(at 171.45 38.1)
@@ -7396,16 +7378,6 @@
 			(type default)
 		)
 		(uuid "08003530-57ab-4ece-8fd4-e1755c3a334f")
-	)
-	(wire
-		(pts
-			(xy 311.15 143.51) (xy 328.93 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09b2c63c-1bf8-4876-b3fe-f60ef6d28670")
 	)
 	(wire
 		(pts
@@ -7757,16 +7729,6 @@
 		)
 		(uuid "32e8f999-ce9b-49fe-b338-d6c094a90684")
 	)
-	(wire
-		(pts
-			(xy 311.15 120.65) (xy 311.15 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33c1cd7e-dd71-4a02-99b6-3d5151710e7b")
-	)
 	(polyline
 		(pts
 			(xy -39.37 137.795) (xy -121.92 137.795)
@@ -7926,16 +7888,6 @@
 			(type default)
 		)
 		(uuid "3ee0345d-c332-4a61-9615-341bb68cfc16")
-	)
-	(wire
-		(pts
-			(xy 325.12 120.65) (xy 330.2 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fc09185-711c-4364-8060-eb02851980cc")
 	)
 	(wire
 		(pts
@@ -8289,16 +8241,6 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 106.68) (xy 311.15 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a65dfbe-7595-4744-bc9d-ce7e56f645df")
-	)
-	(wire
-		(pts
 			(xy 182.88 114.3) (xy 191.77 114.3)
 		)
 		(stroke
@@ -8476,16 +8418,6 @@
 			(type default)
 		)
 		(uuid "64c3e650-a90a-4a8a-a1d0-f0c62f6d3612")
-	)
-	(wire
-		(pts
-			(xy 321.31 120.65) (xy 325.12 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "687691aa-7dab-457e-adc8-25fa39789128")
 	)
 	(wire
 		(pts
@@ -9119,16 +9051,6 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 99.06) (xy 322.58 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1e561ba-26af-4b57-8abc-76ea719a19df")
-	)
-	(wire
-		(pts
 			(xy 228.6 41.91) (xy 237.49 41.91)
 		)
 		(stroke
@@ -9289,7 +9211,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 99.06) (xy 323.85 99.06)
+			(xy 321.31 99.06) (xy 323.85 99.06)
 		)
 		(stroke
 			(width 0)
@@ -9476,16 +9398,6 @@
 			(type default)
 		)
 		(uuid "ccb24e37-982a-4691-9e3d-cd8e4b000dbf")
-	)
-	(wire
-		(pts
-			(xy 321.31 113.03) (xy 325.12 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd3b896f-a51a-40de-99a7-be0fbe2f4d12")
 	)
 	(wire
 		(pts
@@ -9689,16 +9601,6 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 113.03) (xy 325.12 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d99e8215-8bfc-46bf-8c62-2a84bfd02a28")
-	)
-	(wire
-		(pts
 			(xy 162.56 38.1) (xy 162.56 40.64)
 		)
 		(stroke
@@ -9756,16 +9658,6 @@
 			(type default)
 		)
 		(uuid "dedc81f0-d066-435f-a2ac-c499f4b04786")
-	)
-	(wire
-		(pts
-			(xy 321.31 99.06) (xy 322.58 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df62b017-2313-442c-b966-3ca0647849bf")
 	)
 	(wire
 		(pts
@@ -9959,16 +9851,6 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 137.16) (xy 328.93 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee31d7e1-adec-4baf-89e9-6e37b7e0f7dc")
-	)
-	(wire
-		(pts
 			(xy 166.37 184.15) (xy 166.37 185.42)
 		)
 		(stroke
@@ -10116,16 +9998,6 @@
 			(type default)
 		)
 		(uuid "f7656e08-3dcc-49aa-80fb-7178b8773d7c")
-	)
-	(wire
-		(pts
-			(xy 311.15 106.68) (xy 311.15 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8e9b4ee-44cd-4e98-ab5d-a0440e522c09")
 	)
 	(wire
 		(pts
@@ -10450,7 +10322,6 @@
 	)
 	(label "D8"
 		(at 191.77 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10461,7 +10332,6 @@
 	)
 	(label "D13"
 		(at 431.8 49.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10472,7 +10342,6 @@
 	)
 	(label "QSPI_D2"
 		(at 111.76 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10483,7 +10352,6 @@
 	)
 	(label "D13"
 		(at 191.77 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10494,7 +10362,6 @@
 	)
 	(label "SCLK"
 		(at 191.77 114.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10505,7 +10372,6 @@
 	)
 	(label "Gnd_daughter"
 		(at -93.345 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10516,7 +10382,6 @@
 	)
 	(label "D16"
 		(at 191.77 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10527,7 +10392,6 @@
 	)
 	(label "LED"
 		(at 191.77 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10538,7 +10402,6 @@
 	)
 	(label "SCLK"
 		(at 255.27 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10549,7 +10412,6 @@
 	)
 	(label "Gnd_daughter"
 		(at -104.14 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10560,7 +10422,6 @@
 	)
 	(label "D0"
 		(at 237.49 39.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10571,7 +10432,6 @@
 	)
 	(label "D-_daughter"
 		(at -103.505 118.11 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10582,7 +10442,6 @@
 	)
 	(label "D+"
 		(at 37.465 58.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10593,7 +10452,6 @@
 	)
 	(label "VBUS_DET"
 		(at 195.58 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10604,7 +10462,6 @@
 	)
 	(label "D6"
 		(at 191.77 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10615,7 +10472,6 @@
 	)
 	(label "MOSI"
 		(at 191.77 116.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10626,7 +10482,6 @@
 	)
 	(label "D14"
 		(at 415.29 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10637,7 +10492,6 @@
 	)
 	(label "D8"
 		(at 237.49 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10648,7 +10502,6 @@
 	)
 	(label "D14"
 		(at 431.8 54.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10659,7 +10512,6 @@
 	)
 	(label "D+_daughter"
 		(at -66.675 87.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10670,7 +10522,6 @@
 	)
 	(label "D-"
 		(at 37.465 55.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10681,7 +10532,6 @@
 	)
 	(label "hand"
 		(at 191.77 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10692,7 +10542,6 @@
 	)
 	(label "A2"
 		(at 191.77 132.08 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10703,7 +10552,6 @@
 	)
 	(label "Gnd_daughter"
 		(at -66.675 82.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10714,7 +10562,6 @@
 	)
 	(label "D7"
 		(at 191.77 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10725,7 +10572,6 @@
 	)
 	(label "D-"
 		(at 111.76 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10736,7 +10582,6 @@
 	)
 	(label "D1"
 		(at 191.77 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10747,7 +10592,6 @@
 	)
 	(label "~{RESET}"
 		(at 31.115 172.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10758,7 +10602,6 @@
 	)
 	(label "Vbus_daughter"
 		(at -86.36 29.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10769,7 +10612,6 @@
 	)
 	(label "QSPI_SCLK"
 		(at 218.44 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10780,7 +10622,6 @@
 	)
 	(label "D4"
 		(at 191.77 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10791,7 +10632,6 @@
 	)
 	(label "A3"
 		(at 255.27 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10802,7 +10642,6 @@
 	)
 	(label "D9"
 		(at 237.49 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10813,7 +10652,6 @@
 	)
 	(label "Vbus_daughter"
 		(at -67.31 66.675 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10824,7 +10662,6 @@
 	)
 	(label "QSPI_D0"
 		(at 267.97 127 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10835,7 +10672,6 @@
 	)
 	(label "D16"
 		(at 251.46 72.39 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10846,7 +10682,6 @@
 	)
 	(label "D12"
 		(at 387.35 138.43 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10857,7 +10692,6 @@
 	)
 	(label "QSPI_~{CS}"
 		(at 218.44 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10868,7 +10702,6 @@
 	)
 	(label "QSPI_D1"
 		(at 111.76 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10879,7 +10712,6 @@
 	)
 	(label "D5"
 		(at 237.49 57.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10890,7 +10722,6 @@
 	)
 	(label "MOSI"
 		(at 255.27 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10901,7 +10732,6 @@
 	)
 	(label "D+"
 		(at 36.83 45.085 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10912,7 +10742,6 @@
 	)
 	(label "MISO"
 		(at 255.27 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10923,7 +10752,6 @@
 	)
 	(label "~{RESET}"
 		(at 118.745 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10934,7 +10762,6 @@
 	)
 	(label "D13"
 		(at 415.29 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10945,7 +10772,6 @@
 	)
 	(label "D7"
 		(at 237.49 62.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10956,7 +10782,6 @@
 	)
 	(label "D-_daughter"
 		(at -67.31 71.755 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10967,7 +10792,6 @@
 	)
 	(label "D11"
 		(at 415.29 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10978,7 +10802,6 @@
 	)
 	(label "D14"
 		(at 191.77 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10989,7 +10812,6 @@
 	)
 	(label "QSPI_D3"
 		(at 111.76 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11000,7 +10822,6 @@
 	)
 	(label "~{RESET}"
 		(at 44.45 205.105 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11011,7 +10832,6 @@
 	)
 	(label "QSPI_~{CS}"
 		(at 111.76 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11022,7 +10842,6 @@
 	)
 	(label "Gnd_daughter"
 		(at -67.31 69.215 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11033,7 +10852,6 @@
 	)
 	(label "A1"
 		(at 191.77 129.54 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11044,7 +10862,6 @@
 	)
 	(label "Vbus_mother"
 		(at 27.305 29.845 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11055,7 +10872,6 @@
 	)
 	(label "D5"
 		(at 191.77 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11066,7 +10882,6 @@
 	)
 	(label "QSPI_D2"
 		(at 267.97 134.62 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11077,7 +10892,6 @@
 	)
 	(label "D-"
 		(at 36.83 42.545 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11088,7 +10902,6 @@
 	)
 	(label "D9"
 		(at 191.77 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11099,7 +10912,6 @@
 	)
 	(label "A0"
 		(at 255.27 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11110,7 +10922,6 @@
 	)
 	(label "Vbus_mother"
 		(at 36.83 37.465 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11121,7 +10932,6 @@
 	)
 	(label "D+"
 		(at 111.76 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11132,7 +10942,6 @@
 	)
 	(label "D12"
 		(at 191.77 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11143,7 +10952,6 @@
 	)
 	(label "D-_daughter"
 		(at -79.375 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11154,7 +10962,6 @@
 	)
 	(label "D+_daughter"
 		(at -83.185 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11165,7 +10972,6 @@
 	)
 	(label "D6"
 		(at 237.49 59.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11176,7 +10982,6 @@
 	)
 	(label "LED"
 		(at 24.765 160.02 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11187,7 +10992,6 @@
 	)
 	(label "hand"
 		(at 421.64 128.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11198,7 +11002,6 @@
 	)
 	(label "Vbus_daughter"
 		(at -66.675 80.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11209,7 +11012,6 @@
 	)
 	(label "D21"
 		(at 191.77 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11220,7 +11022,6 @@
 	)
 	(label "QSPI_D1"
 		(at 267.97 129.54 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11231,7 +11032,6 @@
 	)
 	(label "D12"
 		(at 330.2 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11242,7 +11042,6 @@
 	)
 	(label "MISO"
 		(at 191.77 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11253,7 +11052,6 @@
 	)
 	(label "Gnd_daughter"
 		(at -68.58 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11264,7 +11062,6 @@
 	)
 	(label "D-_daughter"
 		(at -66.675 85.09 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11275,7 +11072,6 @@
 	)
 	(label "A2"
 		(at 255.27 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11286,7 +11082,6 @@
 	)
 	(label "D+_daughter"
 		(at -67.31 74.295 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11297,7 +11092,6 @@
 	)
 	(label "D1"
 		(at 237.49 41.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11308,7 +11102,6 @@
 	)
 	(label "D10"
 		(at 415.29 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11319,7 +11112,6 @@
 	)
 	(label "QSPI_~{CS}"
 		(at 46.355 160.655 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11330,7 +11122,6 @@
 	)
 	(label "Vbus_daughter"
 		(at -93.345 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11341,7 +11132,6 @@
 	)
 	(label "QSPI_SCLK"
 		(at 111.76 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11352,7 +11142,6 @@
 	)
 	(label "QSPI_D3"
 		(at 267.97 137.16 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11363,7 +11152,6 @@
 	)
 	(label "A3"
 		(at 191.77 134.62 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11374,7 +11162,6 @@
 	)
 	(label "D0"
 		(at 191.77 58.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11385,7 +11172,6 @@
 	)
 	(label "D21"
 		(at 255.27 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11396,7 +11182,6 @@
 	)
 	(label "Vbus_mother"
 		(at 37.465 50.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11407,7 +11192,6 @@
 	)
 	(label "D10"
 		(at 191.77 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11418,7 +11202,6 @@
 	)
 	(label "D-_daughter"
 		(at -103.505 113.03 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11429,7 +11212,6 @@
 	)
 	(label "D+_daughter"
 		(at -79.375 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11440,7 +11222,6 @@
 	)
 	(label "A0"
 		(at 191.77 127 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11451,7 +11232,6 @@
 	)
 	(label "~{RESET}"
 		(at 43.815 214.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11462,7 +11242,6 @@
 	)
 	(label "QSPI_D0"
 		(at 111.76 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11473,7 +11252,6 @@
 	)
 	(label "D4"
 		(at 237.49 54.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11484,7 +11262,6 @@
 	)
 	(label "D+_daughter"
 		(at -83.185 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11495,7 +11272,6 @@
 	)
 	(label "A1"
 		(at 255.27 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11506,7 +11282,6 @@
 	)
 	(label "D11"
 		(at 191.77 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14622,73 +14397,6 @@
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 316.23 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "34d8fba1-47a8-4a68-b97b-2b7d8ef39d77")
-		(property "Reference" "NA_JP3"
-			(at 315.214 117.348 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NA_Jumper_2_Open"
-			(at 329.946 114.808 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "local-libraries:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 316.23 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 316.23 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 316.23 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5a10581c-cd75-4fdd-bb56-eb557514404c")
-		)
-		(pin "2"
-			(uuid "70b60fbe-4adb-4673-b417-7c346b4df2eb")
-		)
-		(instances
-			(project "splinktegrated"
-				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "NA_JP3")
 					(unit 1)
 				)
 			)
@@ -18131,6 +17839,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "NA_Serial"
@@ -18534,73 +18243,6 @@
 			(project "splinktegrated"
 				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 316.23 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "b23db614-74fe-4f40-b116-8a435a7ca4fa")
-		(property "Reference" "NA_JP4"
-			(at 315.214 109.728 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NA_Jumper_2_Open"
-			(at 324.612 106.426 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "local-libraries:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 316.23 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 316.23 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 316.23 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "606c97ea-34af-4a78-80f7-7992b3fa08f9")
-		)
-		(pin "2"
-			(uuid "62f373fc-3b60-4acc-b50e-1a1bbbff4c95")
-		)
-		(instances
-			(project "splinktegrated"
-				(path "/7353e96a-343a-4876-b497-b1d205a14d97"
-					(reference "NA_JP4")
 					(unit 1)
 				)
 			)
